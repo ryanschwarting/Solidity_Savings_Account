@@ -1,22 +1,8 @@
-# Unit 20 - "Joint Savings Account"
-
-![alt=“”](Images/20-5-challenge-image.png)
-
-### Background
-
-A fintech startup company has recently hired you. This company is disrupting the finance industry with its own cross-border, Ethereum-compatible blockchain that connects financial institutions. Currently, the team is building smart contracts to automate many of the institutions’ financial processes and features, such as hosting joint savings accounts.
+# "Joint Savings Account"
 
 To automate the creation of joint savings accounts, you’ll create a Solidity smart contract that accepts two user addresses. These addresses will be able to control a joint savings account. Your smart contract will use ether management functions to implement a financial institution’s requirements for providing the features of the joint savings account. These features will consist of the ability to deposit and withdraw funds from the account.
 
-### What You're Creating
-
-* The completed Solidity `JointSavings` smart contract.
-
-* A folder named `Execution_Results` that contains at least eight images. These images should confirm that the deposit and withdrawal transactions, which are designed to test the `JointSavings` functionality in the JavaScript VM, worked as expected.
-
 ### Instructions
-
-The steps for this homework are divided into the following sections:
 
 1. Create a Joint Savings Account Contract in Solidity
 
@@ -26,7 +12,7 @@ The steps for this homework are divided into the following sections:
 
 #### Step 1: Create a Joint Savings Account Contract in Solidity
 
-1. From the provided [starter code](Starter_Code), open the Solidity file named `joint_savings.sol` in the Remix IDE.
+1. Go to Remix IDE.
 
 2. Define a new contract named `JointSavings`.
 
@@ -72,7 +58,7 @@ The steps for this homework are divided into the following sections:
 
 #### Step 3: Interact with Your Deployed Smart Contract
 
-Now that your contract is deployed, it’s time to test its functionality! After each step, capture a screenshot of the execution, and then save it in a folder named `Execution_Results`. You’ll share this folder with your final submission.
+Now that your contract is deployed, it’s time to test its functionality! After each step, capture a screenshot of the execution, and then save it in a folder named `Execution_Results`.
 
 To interact with your deployed smart contract, complete the following steps:
 
@@ -96,14 +82,6 @@ To interact with your deployed smart contract, complete the following steps:
     > **Note** Remembering how to convert ether to wei and vice versa can be challenging. So, you can use a website like [Ethereum Unit Converter](https://eth-converter.com/) to ease doing the conversion.
 
 3. Once you’ve successfully deposited funds into your contract, test the contract’s withdrawal functionality by withdrawing 5 ether into `accountOne` and 10 ether into `accountTwo`. After each transaction, use the `contractBalance` function to verify that the funds were withdrawn from your contract. Also, use the `lastToWithdraw` and `lastWithdrawAmount` functions to verify that the address and amount were correct.
-
----
-
-### Submission
-
-* Upload the files for this assignment to your GitHub repository.
-
-* Submit the link to your GitHub repo on Bootcamp Spot.
 
 ---
 
